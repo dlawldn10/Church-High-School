@@ -5,21 +5,11 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+
         <item name="android:windowDrawsSystemBarBackgrounds">true</item>
 
         <!-- 상태바 색상-->
-        <item name="android:windowLightStatusBar">true</item>
-        <item name="android:statusBarColor">@color/colorWhite</item>
-
-
+        <item name="android:statusBarColor">#33D59F9F</item>
     </style>
-
-    <style name="Theme.App" parent="Theme.MaterialComponents">
-        <item name="colorOnSurface">@color/gray</item>
-        <item name="colorSecondary">@color/mainBlue</item>
-    </style>
-
-
-
 
 </resources>

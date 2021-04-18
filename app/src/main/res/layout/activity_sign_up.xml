@@ -1,18 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Activity.SignUpActivity"
+    android:backgroundTint="#FFFFFF"
     android:orientation="vertical">
 
     <TextView
         android:id="@+id/title_SignUp"
         android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:layout_marginTop="50dp"
         android:gravity="center"
         android:text="회원가입"
         android:textColor="#000000"
@@ -27,43 +24,38 @@
 
         <EditText
             android:id="@+id/EmailEditText"
-            android:layout_width="300dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
             android:layout_marginBottom="5dp"
-            android:autofillHints=""
             android:ems="10"
             android:hint="이메일"
-            android:inputType="textEmailAddress" />
+            android:inputType="textEmailAddress"
+            android:autofillHints="" />
 
         <EditText
             android:id="@+id/PasswordEditText"
-            android:layout_width="300dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
             android:layout_marginBottom="5dp"
-            android:autofillHints=""
             android:ems="10"
             android:hint="비밀번호"
-            android:inputType="textPassword" />
+            android:inputType="textPassword"
+            android:autofillHints="" />
 
         <EditText
             android:id="@+id/PasswordCheckEditText"
-            android:layout_width="300dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
             android:layout_marginBottom="5dp"
-            android:autofillHints=""
             android:ems="10"
             android:hint="비밀번호 확인"
-            android:inputType="textPassword" />
+            android:inputType="textPassword"
+            android:autofillHints="" />
 
         <LinearLayout
-            android:layout_width="300dp"
+            android:layout_width="match_parent"
             android:layout_height="52dp"
-            android:layout_gravity="center"
             android:layout_marginTop="20dp"
-            android:layout_marginBottom="50dp"
             android:orientation="horizontal">
 
             <RadioGroup
@@ -94,10 +86,10 @@
 
         <Button
             android:id="@+id/SignUpButton"
-            android:layout_width="300dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
             android:text="회원가입" />
 
     </LinearLayout>
+
 </LinearLayout>

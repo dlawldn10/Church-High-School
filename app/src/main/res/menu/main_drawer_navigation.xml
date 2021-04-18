@@ -5,17 +5,12 @@
         android:icon = "@drawable/ic_android_black_24dp"
         android:title = "마이페이지"
         />
-    <item android:id = "@+id/StudentList"
+    <item android:id = "@+id/MyAttendance"
         android:icon = "@drawable/ic_android_black_24dp"
-        android:title = "학생 수첩"
+        android:title = "내 출석현황"
         />
-    <item android:id = "@+id/TeacherList"
-        android:icon = "@drawable/ic_android_black_24dp"
-        android:title = "교사 수첩"
-        />
-    <item android:id = "@+id/LogOut"
-        android:icon = "@drawable/ic_android_black_24dp"
-        android:title = "로그아웃"
-        />
-
+<!--    <item android:id = "@+id/item3"-->
+<!--        android:icon = "@drawable/ic_android_black_24dp"-->
+<!--        android:title = "개발자정보"-->
+<!--        />-->
 </menu>
